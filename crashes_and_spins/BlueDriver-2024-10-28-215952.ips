@@ -1,0 +1,81 @@
+{"app_name":"BlueDriver","timestamp":"2024-10-28 21:59:52.06 -0400","app_version":"7.14.1","slice_uuid":"b3b6cb7b-19d3-388c-aa09-128112dc677e","adam_id":445403397,"build_version":"414","bundleID":"com.lemurmonitors.BlueDriver","share_with_app_devs":false,"is_first_party":false,"bug_type":"109","os_version":"iPhone OS 12.5.7 (16H81)","incident_id":"551E47F9-D463-4C54-BAE5-DDB7CA3E71C9","name":"BlueDriver"}
+Incident Identifier: 551E47F9-D463-4C54-BAE5-DDB7CA3E71C9
+CrashReporter Key:   c58ede775bc2abb83b9fbc070d9e56907d19b5d5
+Hardware Model:      iPhone7,2
+Process:             BlueDriver [2580]
+Path:                /private/var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/BlueDriver
+Identifier:          com.lemurmonitors.BlueDriver
+Version:             414 (7.14.1)
+AppStoreTools:       16A242d
+AppVariant:          1:iPhone7,2:12.2
+Code Type:           ARM-64 (Native)
+Role:                Foreground
+Parent Process:      launchd [1]
+Coalition:           com.lemurmonitors.BlueDriver [1498]
+
+
+Date/Time:           2024-10-28 21:59:51.9461 -0400
+Launch Time:         2024-10-28 21:59:50.7700 -0400
+OS Version:          iPhone OS 12.5.7 (16H81)
+Baseband Version:    7.80.04
+Report Version:      104
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+Exception Note:  EXC_CORPSE_NOTIFY
+Termination Description: DYLD, Library not loaded: /System/Library/Frameworks/SwiftUI.framework/SwiftUI | Referenced from: /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/BlueDriver | Reason: image not found
+Triggered by Thread:  0
+
+Thread 0 Crashed:
+0   dyld                          	0x000000010104e418 0x10100c000 + 271384
+1   dyld                          	0x000000010104da58 0x10100c000 + 268888
+2   dyld                          	0x000000010104da88 0x10100c000 + 268936
+3   dyld                          	0x00000001010108f8 0x10100c000 + 18680
+4   dyld                          	0x00000001010136e4 0x10100c000 + 30436
+5   dyld                          	0x000000010100d044 0x10100c000 + 4164
+
+Thread 0 crashed with ARM Thread State (64-bit):
+    x0: 0x0000000000000006   x1: 0x0000000000000001   x2: 0x000000016f6c2990   x3: 0x00000000000000ab
+    x4: 0x000000016f6c2590   x5: 0x0000000000000000   x6: 0x0000000000000000   x7: 0x0000000000000390
+    x8: 0x0000000000000020   x9: 0x0000000000000009  x10: 0x203a6e6f73616552  x11: 0x6f6e206567616d69
+   x12: 0x20200a7265766972  x13: 0x203a6e6f73616552  x14: 0x6f6e206567616d69  x15: 0x00646e756f662074
+   x16: 0x0000000000000209  x17: 0x0000000000000010  x18: 0x0000000000000000  x19: 0x0000000000000000
+   x20: 0x000000016f6c2590  x21: 0x00000000000000ab  x22: 0x000000016f6c2990  x23: 0x0000000000000001
+   x24: 0x0000000000000006  x25: 0x000000000000002f  x26: 0x00000001010675e0  x27: 0x0000000101067000
+   x28: 0x0000000101067a00   fp: 0x000000016f6c2560   lr: 0x000000010104da58
+    sp: 0x000000016f6c2520   pc: 0x000000010104e418 cpsr: 0x00000000
+
+Binary Images:
+0x10073c000 - 0x100d47fff BlueDriver arm64  <b3b6cb7b19d3388caa09128112dc677e> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/BlueDriver
+0x100f50000 - 0x100f6ffff AppAuth arm64  <b5999bf8f95e3203b4f0b7847ed9782a> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/AppAuth.framework/AppAuth
+0x100fa4000 - 0x100fbbfff BlocksKit arm64  <4633e2ff61f13482836982de7c1c71a3> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/BlocksKit.framework/BlocksKit
+0x100fe8000 - 0x100ff3fff FirebaseCoreDiagnostics arm64  <27f549a54d3637eba70be985cdad2c3e> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseCoreDiagnostics.framework/FirebaseCoreDiagnostics
+0x10100c000 - 0x101063fff dyld arm64  <c08f675c016c30b8a87de35aef8f6b20> /usr/lib/dyld
+0x1010cc000 - 0x10112bfff BDEnhanced arm64  <b0ccc6121bdb3c09ac02ebb9acfbdcae> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/BDEnhanced.framework/BDEnhanced
+0x101190000 - 0x1012ebfff ChatProvidersSDK arm64  <34fd554fa18a32668fa894738f3eca5d> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/ChatProvidersSDK.framework/ChatProvidersSDK
+0x101378000 - 0x1013b3fff ChatSDK arm64  <82ac7a206fcf324f87212e5ecbc4839e> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/ChatSDK.framework/ChatSDK
+0x1013d4000 - 0x1013f7fff CocoaLumberjack arm64  <0c83eb326edc3dd191af1bed1694d864> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack
+0x101434000 - 0x1014fbfff CommonUISDK arm64  <c61708df45b134a294e84691bd1fd3dc> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/CommonUISDK.framework/CommonUISDK
+0x10155c000 - 0x10156bfff FBLPromises arm64  <9fdd09ac0f7734aa84ae5eb4cad97c8b> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FBLPromises.framework/FBLPromises
+0x101588000 - 0x101623fff FBSDKCoreKit arm64  <18131035c3d63a269a4ff01c3503090c> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit
+0x101700000 - 0x10171ffff FBSDKLoginKit arm64  <dd49c9ac6f573f179ebc679dd0bd3c9c> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit
+0x101754000 - 0x1017a3fff FirebaseAuth arm64  <2311de9c7d6337f1b6b8a22c8bf64e66> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseAuth.framework/FirebaseAuth
+0x101838000 - 0x10184bfff FirebaseCore arm64  <24a5654149363ad99dc9895971183b9a> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseCore.framework/FirebaseCore
+0x10186c000 - 0x1018a7fff FirebaseCrashlytics arm64  <5bb02344756c3554929da872ac77c2a8> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseCrashlytics.framework/FirebaseCrashlytics
+0x101908000 - 0x10198bfff FirebaseDatabase arm64  <a9ce5ca2b053305dbbe1d67a13e977fb> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseDatabase.framework/FirebaseDatabase
+0x101a5c000 - 0x101a73fff FirebaseInstallations arm64  <63d3f877c600305682a3473826771f8e> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseInstallations.framework/FirebaseInstallations
+0x101a9c000 - 0x101acffff FirebaseMessaging arm64  <5bf78c3d34583bd3ae66641d4913e5f6> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/FirebaseMessaging.framework/FirebaseMessaging
+0x101b18000 - 0x101b23fff GTMAppAuth arm64  <8c6f8e72d9623d6eb1cf4d76fba3d01d> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/GTMAppAuth.framework/GTMAppAuth
+0x101b38000 - 0x101b63fff GTMSessionFetcher arm64  <e1b1a895def13a60b987cd89ea05869d> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher
+0x101ba4000 - 0x101bc3fff GoogleDataTransport arm64  <db993c65d013306c935696be5cb5c6f1> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/GoogleDataTransport.framework/GoogleDataTransport
+0x101bf8000 - 0x101c13fff GoogleUtilities arm64  <59253d893f723e709264c42a61e6a2f1> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/GoogleUtilities.framework/GoogleUtilities
+0x101c40000 - 0x101c67fff MessagingAPI arm64  <e810d3f87071378aafb324dadee0d5ab> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/MessagingAPI.framework/MessagingAPI
+0x101c80000 - 0x101ca7fff MessagingSDK arm64  <e739dc40f80f37ad93490e67b1855b3f> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/MessagingSDK.framework/MessagingSDK
+0x101cc4000 - 0x101ccbfff SDKConfigurations arm64  <f0c6d0f1b00233caaa1a676d1fbbff7d> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/SDKConfigurations.framework/SDKConfigurations
+0x101cdc000 - 0x101d1bfff SDWebImage arm64  <1592d58f673435029b6bd39ae367e125> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/SDWebImage.framework/SDWebImage
+0x101d90000 - 0x101da3fff bgxpress arm64  <ef2bb9fc1097364898446213089b0f1c> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/bgxpress.framework/bgxpress
+0x101dc0000 - 0x101df3fff leveldb arm64  <904ae894ab2b3717846de09c4467e220> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/leveldb.framework/leveldb
+0x101e38000 - 0x101e3ffff nanopb arm64  <bd83df5d65943a6e9ddad7a19697b17e> /var/containers/Bundle/Application/5AA02B1B-DFB6-49D3-AF28-478CFCB1A6A2/BlueDriver.app/Frameworks/nanopb.framework/nanopb
+
+EOF
+
