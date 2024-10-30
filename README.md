@@ -19,18 +19,15 @@ This folder was extracted from a SysDiagnose packages that was dumped from my iP
 
 Here's some captured movies of the crash
 
+**First**
 
+[![Watch the video](https://img.youtube.com/vi/2nXBF_V5Q4Q/0.jpg)](https://www.youtube.com/watch?v=2nXBF_V5Q4Q)
 
+![bluedriver_crash1.avi](movies/bluedriver_crash1.avi)
 
-<video width="640" height="480" controls>
-  <source src="https://github.com/arsscriptum/bluedriver.crash-report/raw/refs/heads/master/movies/bluedriver_crash1.avi" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+**Second**
 
+[![Watch the video](https://img.youtube.com/vi/NbTUXSOxPmc/0.jpg)](https://www.youtube.com/watch?v=NbTUXSOxPmc)
 
-<video width="640" height="480" controls>
-  <source src="https://github.com/arsscriptum/bluedriver.crash-report/raw/refs/heads/master/movies/bluedriver_crash2.avi" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+![bluedriver_crash2.avi](movies/bluedriver_crash2.avi)
 
