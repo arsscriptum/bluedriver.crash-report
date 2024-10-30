@@ -21,8 +21,8 @@ Here's some captured movies of the crash
 
 First
 
-![bluedriver_crash1.avi](bluedriver_crash1.avi)
+![bluedriver_crash1.avi](movies/bluedriver_crash1.avi)
 
 Second
 
-![bluedriver_crash2.avi](bluedriver_crash2.avi)
+![bluedriver_crash2.avi](movies/bluedriver_crash2.avi)
