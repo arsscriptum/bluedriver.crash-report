@@ -1,4 +1,4 @@
-# BludDriver Diagnostics Tool - Crash Report Information
+# BlueDriver Diagnostics Tool - Crash Report Information
 
 This repository was created to share some files with the BlueDriver support team regarding some issues Im getting with the application and the tool.
 
